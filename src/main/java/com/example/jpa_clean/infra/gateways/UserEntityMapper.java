@@ -10,7 +10,7 @@ public class UserEntityMapper {
   }
 
   public User toDomainObj(UserEntity userEntity) {
-    return new User(userEntity.getUsername(), userEntity.getPassword(), userEntity.getEmail());
+    return new User(userEntity.getUsername(), userEntity.getEmail(), userEntity.getPassword());
   }
 
 }
